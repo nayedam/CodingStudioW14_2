@@ -25,6 +25,7 @@ int main(){
   struct st_card* cards[50]; 	// 최대 50개의 객실을 관리할 수 있는 구조체 포인터 배열
   int count;	// 현재 등록된 카드 수
   int menu;	// 메뉴번호
+  printf("Edited by nayedam\n");
   count = loadCards(cards);	// 시작 전에 파일로부터 객실 리스트를 모두 읽어온다.
   while(1)
   {
